@@ -229,6 +229,9 @@ label {
 .select-wrapper {
   position: relative;
 }
+.select-wrapper-setting {
+  position: relative;
+}
 
 select {
   width: 100%;

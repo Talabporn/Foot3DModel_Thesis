@@ -85,7 +85,7 @@ const SettingAccount = () => {
 
       <div className="input-group">
         <label htmlFor="gender">เพศ</label>
-        <div className="select-wrapper">
+        <div className="select-wrapper-setting">
           <select id="gender" className={isGenderOpen ? "open" : ""}>
             <option value="choose">เลือกเพศ</option>
             <option value="male">ชาย</option>

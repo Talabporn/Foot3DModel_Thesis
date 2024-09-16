@@ -57,6 +57,14 @@ const UserHistory: React.FC = () => {
           <p>คำอธิบายเพิ่มเติม</p>
         </div>
 
+        <div className="foot-detail">
+          <img
+            src="/Pictures/footDetail.png" // เปลี่ยนเป็นเส้นทางของรูปโปรไฟล์ของคุณ
+            alt="footDetail"
+            className="foot-pic"
+          />
+        </div>
+
         {/* การ์ดแสดงคำอธิบาย */}
         {showInfoCard && (
           <div className="info-card">
@@ -99,14 +107,6 @@ const UserHistory: React.FC = () => {
         </div>
         
         )}
-
-        <div className="foot-detail">
-          <img
-            src="/Pictures/footDetail.png" // เปลี่ยนเป็นเส้นทางของรูปโปรไฟล์ของคุณ
-            alt="footDetail"
-            className="foot-pic"
-          />
-        </div>
         <div className="grid">
         <div className="grid-container">
   {["A(ซม.)", "B(ซม.)", "C(ซม.)", "D(ซม.)", "E(ซม.)", "F(ซม.)", "G(ซม.)", "H(ซม.)", "I(ซม.)", "ประเภทอุ้งเท้า"].map((label, index) => (
@@ -121,7 +121,7 @@ const UserHistory: React.FC = () => {
 
       {/* MenuBar */}
       <div className="menuBar">
-        <div className="menuItem" onClick={() => router.push("/")}>
+        <div className="menuItem" onClick={() => router.push("/HomePage")}>
           <VscHome />
           <p>หน้าหลัก</p>
         </div>
